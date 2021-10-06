@@ -1,0 +1,76 @@
+{
+
+    "results_root": "results",
+    "clean_results_dir": false,
+    "clean_weights_dir": false,
+
+    "cuda": true,
+    "gpu": 0,
+
+    "z_size": 256,
+    "point_dim": 3 ,
+    "gf_dim": 128,
+    "ef_dim": 32,
+    "intervals":false,
+    
+    "n_pixels": 64,
+    "n_pixels_epoch": 200,
+
+    "data_dir": "dataset/vox64",
+    "shapenet_dir": "dataset/shapenet",
+    "classes": [],
+    "test_classes": ["airplane"],
+
+    "shuffle": true,
+    "num_workers": 8,
+
+    "max_epochs": 1000,
+    "batch_size": 32,
+
+    "seed": 2018,
+    "save_weights_frequency": 50,
+    "save_samples_frequency": 50,
+    "calculate_metrics_frequency": 50,
+    
+    "model": {
+        "HN": {
+            "use_bias": true,
+            "relu_slope": 0.2
+        },
+        "E": {
+            "use_bias": true,
+            "relu_slope": 0.2
+        },
+        "TN": {
+            "use_bias": true,
+            "relu_slope": 0.2,
+            "freeze_layers_learning": false,
+            "layer_out_channels": [32, 64, 128, 64],
+            "last_layer_out_channel" : 1
+        }
+    },
+    "optimizer": {
+        "E_HN": {
+            "type": "Adam",
+            "hyperparams": {
+                "lr": 0.00005,
+                "weight_decay": 0,
+                "betas": [0.5, 0.999],
+                "amsgrad": false
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
