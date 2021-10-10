@@ -9,6 +9,8 @@ Recently introduced implicit field representations offer an effective way of gen
 
 Code is based on [3d-point-clouds-HyperCloud](https://github.com/gmum/3d-point-clouds-HyperCloud), [IM-NET-pytorch](https://github.com/czq142857/IM-NET-pytorch) and [IM-NET](https://github.com/czq142857/IM-NET).
 
+<img src='imgs/teaser.png' />
+
 
 ## Requirements
 - dependencies stored in `requirements.txt`.
