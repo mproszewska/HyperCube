@@ -3,6 +3,7 @@
 # HyperCube: Implicit Field Representations of Voxelized 3D Models 
 
 Authors: Magdalena Proszewska, Marcin Mazur, Tomasz Trzcinski, Przemysław Spurek
+[[Paper]](http://arxiv.org/abs/2110.05770)
 
 #### Abstract
 Recently introduced implicit field representations offer an effective way of generating 3D object shapes. They leverage implicit decoder trained to take a 3D point coordinate concatenated with a shape encoding and to output a value which indicates whether the point is outside the shape or not. Although this approach enables efficient rendering of visually plausible objects, it has two significant limitations. First, it is based on a single neural network dedicated for all objects from a training set which results in a cumbersome training procedure and its application in real life. More importantly, the implicit decoder takes only points sampled within voxels (and not the entire voxels) which yields problems at the classification boundaries and results in empty spaces within the rendered mesh.
