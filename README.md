@@ -3,6 +3,7 @@
 # HyperCube: Implicit Field Representations of Voxelized 3D Models 
 
 Authors: Magdalena Proszewska, Marcin Mazur, Tomasz Trzcinski, Przemysław Spurek
+
 [[Paper]](http://arxiv.org/abs/2110.05770)
 
 #### Abstract
