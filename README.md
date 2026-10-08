@@ -54,4 +54,25 @@ airplane, car, chair, rifle, table
 
 `input` is a tensor with latent vectors for class airplane obtained from a trained hypernetwork. `c` is one of `[airplane, car, chair, rifle, table]`.
 
+## Citation
 
+If you find this work useful, please consider citing:
+
+Proszewska, M., Mazur, M., Trzciński, T., & Spurek, P. (2024). HyperCube: Implicit Field Representations of Voxelized 3D Models (Student Abstract). Proceedings of the AAAI Conference on Artificial Intelligence, 38(21), 23623–23625. https://doi.org/10.1609/aaai.v38i21.30499
+
+<details> <summary>BibTeX</summary>
+
+@inproceedings{proszewska2024hypercube,
+  author    = {Magdalena Proszewska and Marcin Mazur and Tomasz Trzciński and Przemysław Spurek},
+  title     = {HyperCube: Implicit Field Representations of Voxelized 3D Models (Student Abstract)},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume    = {38},
+  number    = {21},
+  pages     = {23623--23625},
+  year      = {2024},
+  doi       = {10.1609/aaai.v38i21.30499},
+  url       = {https://doi.org/10.1609/aaai.v38i21.30499}
+}
+
+
+</details>
